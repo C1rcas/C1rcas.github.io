@@ -1,4 +1,4 @@
-# Hux Blog
+# Cxw Blog
 
 ### [View Live Hux Blog &rarr;](https://huangxuan.me)
 
@@ -17,7 +17,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 **[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
 
 
-## Porting 
+## Porting
 
 - [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
 - [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
@@ -32,7 +32,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 - Brand new [Archive](https://huangxuan.me/archive/) page! Which is not just serving as common archive page but also Tag page where all posts are filter-able with tags!
 Thanks [@kitian616/jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme) to bring this brilliant idea. Noted that the old Tag page and Archive page are deprecated but the new archive's totally backward compatiable.
-- Re-engineering of the blog by extracting duplicated liquid templates. This was proposed in #74 by @Kaijun but postponed for entirely 2.5 years! I wasn't able to merge his PR directly because of long-time divegence but I'd love to give him the full credit! 
+- Re-engineering of the blog by extracting duplicated liquid templates. This was proposed in #74 by @Kaijun but postponed for entirely 2.5 years! I wasn't able to merge his PR directly because of long-time divegence but I'd love to give him the full credit!
 - New code block! Long-wanted line number are supported out of the box now (thanks for @SmilingParadise's help on Sina Weibo) and the theme was updated to Atom One Dark (checkout FQA for how to change to your farovite theme)
 - MathJax support by @Voleking in #80, but I choose the SVG renderer. See [Mathjax, kramdown and Octopress](https://www.lucypark.kr/blog/2013/02/25/mathjax-kramdown-and-octopress/) for writing and escaping details.
 - Open Graph Protocol support by @Android-KitKat in #253
@@ -140,8 +140,8 @@ You can easily get started by modifying `_config.yml`:
 
 ```
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog			# check out docs for more detail
+title: Cxw Blog             # title of your website
+SEOTitle: Cxw Blog			# check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
@@ -341,7 +341,7 @@ This theme uses the default code syntax highlighter of jekyll, "rouge, which is 
 Executing this command to install this plugin:
 
 ```
-$ gem install jekyll-paginate 
+$ gem install jekyll-paginate
 ```
 
 This blog started in Jekyll 2 time when `jekyll-paginate` is standard. With Jekyll 3, it's a plugin we included in `_config.yml`.
